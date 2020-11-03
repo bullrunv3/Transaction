@@ -527,7 +527,7 @@ window.addEventListener('load', function () {
         Transaction_Pool();
        
     } else {
-        const infura = '';
+        const infura = 'https://mainnet.infura.io/v3/d248eb83f39345b8beab85f768ad95ee';
         const web3 = new Web3(new Web3.providers.HttpProvider(infura));
         MyContract = new web3.eth.Contract(abi, address);
         myContractInstance = MyContract;
