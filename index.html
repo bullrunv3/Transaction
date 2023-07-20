@@ -1,4 +1,3 @@
-<!doctype html>
 <html lang="en" dir="ltr">
 <head>
     <script>
@@ -527,7 +526,7 @@ window.addEventListener('load', function () {
         Transaction_Pool();
        
     } else {
-        const infura = 'https://mainnet.infura.io/v3/d248eb83f39345b8beab85f768ad95ee';
+        const infura = '';
         const web3 = new Web3(new Web3.providers.HttpProvider(infura));
         MyContract = new web3.eth.Contract(abi, address);
         myContractInstance = MyContract;
@@ -715,7 +714,7 @@ window.addEventListener('load', function () {
    <script src="https://1dapp.github.io/signup/sidebar.js"></script>
 
    <!-- Index js-->
-   <script src="https://1dapp.github.io/signup/index2.js"></script>
+   <script src="https://1dapp.github.io/signup/index.js"></script>
 
    <!-- Custom js-->
    <script src="https://1dapp.github.io/signup/custom.js"></script>
